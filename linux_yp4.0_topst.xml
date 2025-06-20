@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <default revision="develop" remote="topst" sync-j="4"/>
+  <remote fetch="https://git.yoctoproject.org"          name="yocto" />
+  <remote fetch="https://git.openembedded.org"          name="openembedded" />
+  <remote fetch="https://github.com/topst-development"  name="topst" />
+  <remote fetch="https://github.com"                    name="github"/>
+
+  <project remote="yocto"           name="poky"                        path="poky"                     revision="refs/tags/kirkstone-4.0.17"/>
+  <project remote="yocto"           name="meta-gplv2"                  path="poky/meta-gplv2"          revision="refs/tags/kirkstone-4.0.17"/>
+  <project remote="yocto"           name="meta-arm"                    path="poky/meta-arm"            revision="d7b7b6fb6c7c5545e718e44f38853d1718ce5446"/>
+  <project remote="yocto"           name="meta-lts-mixins"             path="poky/meta-lts-mixins"     revision="83ce817e19487afa9fd375da687493587f78fbc6"/>
+  <project remote="openembedded"    name="meta-openembedded"           path="poky/meta-openembedded"   revision="8bb16533532b6abc2eded7d9961ab2a108fd7a5b"/>
+  <project remote="github"          name="Igalia/meta-webkit"          path="poky/meta-webkit"         revision="b1425d0b559bb05e9f704d1db6d53fef8b5e1bdc"/>
+  <project remote="github"          name="kraj/meta-clang"             path="poky/meta-clang"          revision="8a1d0a1993040ab9d2fb7259b71e4c9582f5cd17"/>
+  <project remote="github"          name="OSSystems/meta-browser"      path="poky/meta-browser"        revision="1f3ccca5678d7cbb221645227ec403aa767c16dd"/>
+  <project remote="topst"           name="meta-topst-bsp"        path="poky/meta-topst-bsp"/>
+  <project remote="topst"           name="meta-topst"            path="poky/meta-topst"/>
+  <project remote="topst"           name="mktcimg"               path="mktcimg"/>
+  <project remote="topst"           name="tools"                 path="tools">
+    <linkfile dest="easy-setup.sh"  src="easy-setup.sh"/>
+    <linkfile dest="stitch-fai-d3.sh"  src="stitch-fai-d3.sh"/>
+    <linkfile dest="stitch-fai-ai.sh"  src="stitch-fai-ai.sh"/>
+  </project>
+
+
+
+</manifest>
+

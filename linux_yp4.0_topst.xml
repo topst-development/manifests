@@ -14,8 +14,8 @@
   <project remote="github"          name="Igalia/meta-webkit"          path="poky/meta-webkit"         revision="b1425d0b559bb05e9f704d1db6d53fef8b5e1bdc"/>
   <project remote="github"          name="kraj/meta-clang"             path="poky/meta-clang"          revision="8a1d0a1993040ab9d2fb7259b71e4c9582f5cd17"/>
   <project remote="github"          name="OSSystems/meta-browser"      path="poky/meta-browser"        revision="1f3ccca5678d7cbb221645227ec403aa767c16dd"/>
-  <project remote="topst"           name="meta-topst-bsp"              path="poky/meta-topst-bsp"      revision="refs/tags/1.1.0-r01"/>
-  <project remote="topst"           name="meta-topst"                  path="poky/meta-topst"          revision="refs/tags/1.1.0-r01"/>
+  <project remote="topst"           name="meta-topst-bsp"              path="poky/meta-topst-bsp"      revision="develop"/>
+  <project remote="topst"           name="meta-topst"                  path="poky/meta-topst"          revision="develop"/>
   <project remote="topst"           name="mktcimg"                     path="mktcimg"/>
   <project remote="topst"           name="tools"                       path="tools"                    revision="refs/tags/1.1.0-r01">
     <linkfile dest="easy-setup.sh"  src="easy-setup.sh"/>

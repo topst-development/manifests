@@ -17,7 +17,7 @@
   <project remote="topst"           name="meta-topst-bsp"              path="poky/meta-topst-bsp"      revision="refs/tags/1.3.0-r01"/>
   <project remote="topst"           name="meta-topst"                  path="poky/meta-topst"          revision="refs/tags/1.3.0-r01"/>
   <project remote="topst"           name="mktcimg"                     path="mktcimg"/>
-  <project remote="topst"           name="tools"                       path="tools"                    revision="refs/tags/1.1.0-r01">
+  <project remote="topst"           name="tools"                       path="tools"                    revision="refs/tags/1.1.0-r02">
     <linkfile dest="easy-setup.sh"  src="easy-setup.sh"/>
     <linkfile dest="stitch-fai-d3.sh"  src="stitch-fai-d3.sh"/>
     <linkfile dest="stitch-fai-ai.sh"  src="stitch-fai-ai.sh"/>
